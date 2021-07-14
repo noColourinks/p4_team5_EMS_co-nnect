@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <title>co-nnect</title>
+    <link rel="stylesheet" href="style/elements.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+  </head>
+<body>
+  <div class="nav active bg-img">
+    <div class="logo bg-img">
+      <iframe height="50px" width="150px" src="assets/logo-infinite.svg"></iframe>
+    </div>
+    <ul>
+      <li><a href="#trailer">Trailer</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#experten">Experten</a></li>
+      <li><a href="#problem">Problem</a></li>
+      <li><a href="#loesung">Lösung</a></li>
+      <li><a href="#interaction">Try it!</a></li>
+      <li><a href="#fazit">Fazit</a></li>
+    </ul>
+  </div>
+  <div class="burger-menu closed hidden">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <section class="scrolify" id="trailer">     
+    <iframe id="vimeo"  src="https://player.vimeo.com/video/573690816" width="auto"loop=1 Pause=0 autoplay=1 height="auto" frameborder="0" allow="autoplay; fullscreen; picture-in-picture webkitAllowFullScreen mozallowfullscreen allowFullScreen" allowfullscreen></iframe>
+  </section>
+
+  <section class="scrolify"  id="team">
+    <div class="content">
+      <img src="assets/team_img.svg">
+      <p>
+        Wir sind Team Therapie bestehend aus Elli, Eva, Flo und Kitty. Warum Therapie? Weil dieses Semester uns nicht nur mit 
+        den dunklen Seiten unserer selbst konfrontiert hat. Sondern auch die Heilung und Erleuchtung eingeleitet hat.  
+        <br><br>
+        Wir sind trotz all der Kommunikationsschwierigkeiten zu einem guten Team fusioniert, in dem wir nicht nur auf die Schwächen eingehen, 
+        sondern auch in der Verfeinerung eine schippe auf unsere Skills draufgelegt haben.  
+      </p>
+    </div>
+    <div class="members">
+      <div class="member" id="flo">
+        <div class="disk">
+          <div class="inner bg-green">
+          </div>
+        </div>
+        <img class="profile" src="assets/flo.png">
+      </div>
+      
+      <div class="member" id="elli">
+        <div class="disk">
+          <div class="inner bg-l-blue">
+          </div>
+        </div>
+        <img class="profile" src="assets/elli.png">
+      </div>
+
+      <div class="member" id="kitty">
+        <div class="disk">
+          <div class="inner bg-violett">
+          </div>
+        </div>
+        <img class="profile" src="assets/kitty.png">
+      </div>
+
+      <div class="member" id="eva">
+        <div class="disk">
+          <div class="inner bg-d-blue">
+
+          </div>
+        </div>
+        <img class="profile" src="assets/eva.png">
+      </div>
+    </div>
+  </section>
+
+  <section class="scrolify"  id="experten" class="GustavLatour">
+    <div class="content">
+      <div id="GustavLatourContent" class="expert content">
+        <div class="author">
+          <p>
+            <span>Bruno Latour</span> <br> 
+            französischer Soziologe und Philosoph. 
+          </p>
+          <br>
+          <p>
+            <span>Gustav Roßler (Dr. phil.)</span> <br>
+            hat in Berlin und Paris Philosophie, Soziologie und Psychologie studiert. 
+
+          </p>
+        </div>
+        <div class="info">
+          <p>
+            Diese Definition Grenze zwischen Mensch und Objekt, und definiert diese als fließenden Übergang. Jedoch bevorzugt Bruno Latour den Oberbegriff der Quasi-Objekte, bei welchem Hybriden, sowie Menschenwesen aus der Natur und der Gesellschaft gemeint sind. “Diese zirkulieren in Netzen und überqueren die Grenze zwischen Sprache, Sozialem und Realem”, führt Gustav Roßler weiterhin aus. Es sind jene Dinge, durch die das soziale Band geknüpft und stabilisiert wird. (Latour & Roßler, 2008, S. 25) 
+          </p>
+        </div>
+      </div>
+      <div id="HomeofficeContent" class="expert content">
+        <div class="author">
+          <p>
+           <span> Prof. Dr. Miriam Landes</span><br> ist Professorin für Wirtschaftspsychologie an der Hochschule für angewandtes Management und Geschäftsführerin des Instituts für Unternehmenssteuerung & Veränderungsmanagement (UVM) in München.
+          </p>
+          <br>
+          <p>
+            <span>Prof. Dr. Eberhard Steiner</span><br> ist Professor für Rechnungswesen und Controlling an der Privatuniversität Schloss Seeburg und der Hochschule München und Geschäftsführer des UVM-Instituts in München. 
+          </p><br>
+          <p>
+            <span>Ralf Wittmann</span><br> berät langjährig im Vertrieb und Vertriebsmanagement, im Druck- und Dokumentenmanagement-Umfeld und bei der Einführung von Home Office-Konzepten. 
+          </p>
+          <p><br>
+            <span>Tatjana Utz</span><br> ist Coach für Resilienz und Kreativität, Trainerin für Teams und Führungskräfte, Design Thinking Coach und Künstlerin. Sie leitet das UVM Innovation Lab in München. 
+          </p>
+        </div>
+        <div class="info">
+          <p>
+            Gab uns nicht nur den Einblick in die Vor- und Nachteile des Arbeitsmodells Homeoffice, sondern auch die Methoden die Menschen helfen den Alltag im Homeoffice zu meistern.  
+          <br> <br>
+          Unteranderem die Gefahr der Isolation und Vereinsamung aufgrund einer fehlenden Gruppenzugehörigkeit bestehen. Empfundene Isolation durch fehlende soziale Kontakte im Berufsleben kann Mitarbeitende negativ beeinträchtigen. Dieser Punkt ist vor allem für im Home Office Arbeitende ernst zu nehmen, welche ausschließlich von zu Hause aus arbeiten. 
+          Wie können Kommunikation und Kontakte im Homeoffice aufrecht erhalten werden? <br><br>Diese Frage sollte im Team, gemeinsam mit der Führungskraft, geklärt werden. Dabei können folgende Leitfragen zur Orientierung dienen:
+          <br> <br>
+          • Wie können Sie zwischenmenschliche Beziehungen im Team aufrechterhalten, wenn Sie von zu Hause aus arbeiten?
+          <br> <br>
+          • Wie kann ein regelmäßiger (Informations-) Austausch untereinander gewährleistet werden?
+          <br> <br>
+          • Wie kann das informelle Gespräch ersetzt werden?
+          </p>
+        </div>
+    </div>
+    <div id="BaldwinContent" class="expert content">
+      <div class="author">
+        <p>
+          <span>James Mark Baldwin</span> <br> Philosoph 
+      	</p>
+      </div>
+      <div class="info">
+        <p>
+          Wir erinnern uns niemals an ein Ereignis, noch nehmen wir von ihm in irgendeiner Weise Kenntnis, ohne dass wir uns der Personen oder Dinge erinnern, welche in demselben vorkamen. Diese sind die substantivischen Glieder; sie sind positive Objekte oder objektive Inhalte, welche selbst individuiert und erinnert werden können. 
+        </p>
+      </div>
+  </div>
+
+  <div id="ThomasAllenContent" class="expert content">
+    <div class="author">
+      <p>
+        <span>Thomas J. Allen </span><br> Professor für Management an der MIT Sloan School of Management und Co-Direktor des MIT Leaders For Manufacturing-Programms. 
+      </p>
+    </div>
+    <div class="info">
+      <p>
+        Es wird eine geringere Kommunikation zwischen den Mitarbeitenden befürchtet. Dieser Befürchtung kann jedoch eine Untersuchung (Allen 1984) entgegengehalten werden. Die sogenannte „Allen Kurve“ besagt, dass die Wahrscheinlichkeit einer regelmäßigen Kommunikation unter Kollegen (in dem untersuchten Fall unter Ingenieuren), die knapp zwei Meter entfernt sind, ungefähr viermal so hoch ist, wie bei Kollegen, welche 18 m voneinander entfernt sitzen. Darüber hinaus sagt sie aus, dass Kollegen aus unterschiedlichen Stockwerken so gut wie kaum miteinander kommunizieren. 
+        Mental Health and the Built Environment = Mental Health and the Built Environment 
+      </p>
+    </div>
+</div>
+
+<div id="MartinHeideggerContent" class="expert content">
+  <div class="author">
+    <p>
+     <span>James Mark Baldwin</span>  <br> Philosoph 
+    </p>
+  </div>
+  <div class="info">
+    <p>
+      Bei der Definition von „Ding“ einigten wir uns darauf, dass damit
+      nicht nur materielle Objekte gemeint sind und es sich nicht „von der
+      Gegenständlichkeit des Gegenstandes aus bestimmen. (Heidegger,
+      1951, S.130).
+    </p>
+  </div>
+</div>
+
+<div id="LambrosMalafourisContent" class="expert content">
+  <div class="author">
+    <p>
+      <span>Lambros Malafouris</span> <br>
+      Forscher der kognitiven Archäologie 
+      
+    </p>
+  </div>
+  <div class="info">
+    <p>
+      die Grenzen zwischen Geist und Materie nicht fest definiert sind. Es werde in der Psychologie zu oft „von“ oder „über“ Dinge gesprochen und nicht „mit“ Dingen. Die Material Engagement Theory argumentiert, dass das menschliche mentale Innenleben ein Prozess ist, der durch Dinge vermittelt wird und größtenteils aus Dingen besteht. Bloß unserem Verstand Informationen zur Verarbeitung, stattdessen sei es eher ein Ergebnis aus dem Prozess des Zusammenspiels der Umgebungen. Die Dinge mischen sich aktiv in unsere kognitive Welt ein. 
+    </p>
+  </div>
+</div>
+
+    </div>
+    <div class="basis">
+      <div id="disks">
+        <div class="disk active" id="GustavLatour" style="top: -130px;">
+          <div class="inner bg-d-blue">
+          <h4>Roßler & <br> Latour</h4>
+          <a class="hidden quelle"  target="_blank"  href="https://www.transcript-verlag.de/978-3-8376-3297-2/der-anteil-der-dinge-an-der-gesellschaft/">Quelle>Quelle</a>
+        </div>
+      </div>
+        <div class="disk" id="Homeoffice">
+          <div class="inner bg-green">
+          <h4>Führung im <br> Homeoffice</h4>
+          <a class="hidden quelle"  target="_blank"  href="https://www.springer.com/de/book/9783658300524">Quelle>Quelle</a>
+        </div>
+      </div>
+        <div class="disk" id="Baldwin">
+          <div class="inner bg-violett">
+          <h4>James Mark<br> Baldwin</h4>
+          <a class="hidden quelle" target="_blank" href="https://ia802806.us.archive.org/29/items/dasdenkenunddied00bald/dasdenkenunddied00bald.pdf  ">Quelle>Quelle</a>
+        </div>
+      </div>
+        <div class="disk" id="ThomasAllen">
+          <div class="inner bg-l-blue">
+          <h4>Thomas<br>Allen</h4>
+          <a class="hidden quelle"  target="_blank"  href="https://sci-hub.st/10.5822/978-1-61091-036-1_7 ">Quelle>Quelle</a>
+        </div>
+      </div>
+        <div class="disk" id="MartinHeidegger">
+          <div class="inner bg-d-blue">
+          <h4>Martin<br>Heidegger</h4>
+          <a class="hidden quelle"  target="_blank"  href="https://plato.stanford.edu/entries/heidegger/#BeiWor">Quelle>Quelle</a>
+        </div>
+      </div>
+        <div class="disk" id="LambrosMalafouris">
+          <div class="inner bg-violett">
+          <h4>Lambros<br>Malafouris</h4>
+          <a class="hidden quelle"  target="_blank"  href="https://mitpress.mit.edu/books/how-things-shape-mind">Quelle>Quelle</a>
+        </div>
+      </div>
+      </div>
+      <div id="base">
+        <h3>Unsere Experten</h3>
+      </div>
+    </div>
+    </section>
+
+    <section id="problem">
+      <div class="state_1 state">
+        <div class="problemHomeoffice">
+          <img class="homeOfficeBoy" src="assets/state1/HomeOfficeBoy.svg">
+          <div class="erkl">
+            <p class="homeoffice">
+              Im Homeoffice gibt es nur den Chat und Telefonie Kanal. 
+            Es ist nicht ersichtlich ob der Kollege gerade ansprechbar 
+            ist oder gar angesprochen werden möchte. An welchem Projekt 
+            dieser Arbeitet oder ob er in der Pause ist. Diese 
+            Intransparenz schafft Unsicherheit und macht die Hürde 
+            zur Kontaktaufnahme größer. Haben Sie schon einmal das 
+            Mittagessen digital veranstaltet? Oder einfach nen Zoom-
+            Raum eröffnet, um mal nen Kaffee zusammen trinken zu 
+            können und zu reden? Warum nicht? Genau wegen dieser 
+            sozialen Hürde und der fehlenden Eindrücke(Signale).
+
+            </p>
+            </div>
+        </div>
+        <div class="content">
+          <h1> Das Problem</h1>
+          <p class="col">
+            Homeoffice ist ein Trend der Zukunft und bietet viele 
+            Möglichkeiten zur Verwirklichung und Verbesserung der 
+            Work-Life-Balance. Man spart so nicht nur Zeit sondern auch Geld. 
+            Dennoch bringt die die Gefahr der Isolation und Vereinsamung 
+            aufgrund einer fehlenden Gruppenzugehörigkeit. Gerade Singles 
+            die nur im Homeoffice arbeiten, neigen dazu Pausen zu 
+            vernachlässigen und den Kontakt zu vernachlässigen. Es 
+            fehlen die äußeren sozialen EInflüsse die Kollegen an 
+            deinem Arbeitsplatz haben. Vom Klopfen an die Bürotür 
+            oder einfach das anstupsen am Arbeitsplatz. Arbeitende 
+            im Homeoffice können im Gegensatz zu Arbeitenden im Büro 
+            nicht sehen ob die Kollegen gerade Konzentriert am Arbeiten 
+            sind. Zudem ist die Gefahr sich zu überarbeiten höher und 
+            viele Pausen fallen aus. Bei vielen Arbeitenden im Homeoffice 
+            entsteht auch schnell das Gefühl der Isolation.
+          </p>
+          
+          <div class="button state_1"><h4>Zeit für eine Pause!</h4></div>
+        </div>
+        <div class="problemBüro">
+          <div class="erkl">
+            <p class="office">
+              Im Büro reicht schon ein Blick auf den Arbeitsplatz von dem 
+              Kollegen um zu erkennen, ob dieser ansprechbar ist, 
+              oder nicht. Ist der Kollege heute im Büro, oder 
+              in der Pause, ist der Arbeitsplatz leer. Hat man 
+              den Arbeitsplatz im Augenwinkel und möchte selbst 
+              eine Pause einlegen, bietet es sich an diesen Kollegen 
+              mitzunehmen um ein nettes Gespräch führen zu können. 
+              Also ruft man diesen, oder geht zu seinem Arbeitsplatz, 
+              um ihn zu einer gemeinsamen Pause zu überzeugen. 
+            </p>
+          </div>
+          <img class="officeBoy1" src="assets/state1/BoyOfficeSit.svg">
+          <img class="officeBoy2" src="assets/state1/Party boy.svg">
+          <img class="officeBoy3" src="assets/state1/Office.svg">
+        </div>
+      </div>
+    </section>
+
+    <section id="loesung">
+      <div class="endBlackStipe">
+        <div></div>
+        <div class="black">
+          <img class="loesImg" src="assets/Loesung.png">
+        </div>
+        <div></div>
+      </div>
+     
+        <div class="content">
+          <div id="loesu">
+            <h3>Unsere Lösung</h3>
+            <p>
+              Co-nnect bringt dir deine Arbeitskollegen nach Hause. Du kannst sehen, 
+              ob deine Kollegen gerade vertieft in der Arbeit sind, bereit für eine 
+              Pause, oder in einer Pause sind. Dies soll dich animieren, auch eine 
+              Pause zu machen, wenn die Meisten deiner Kollegen auch gerade eine Pause 
+              einlegen. Ist ein Kollege im Connect-Modus kannst du ihn Kontaktieren 
+              um mit diesem eine Pause zu planen.   
+            </p>
+          </div>
+          <div id="kontaktaufb">
+            <h3>Kontaktaufnahme</h3>
+            <p>
+              Beim Kontaktaufbau handelt es sich um einen Rahmen mit kontrollieren 
+              Auswahlmöglichkeiten um eine gemeinsame Richtung zu finden. Wird die Disk 
+              vom Kollegen von der Basis abgenommen, leuchtet die eigene Disk beim 
+              Kollegen Cyan auf. Nimmt er dann deine Disk von der Station ab, startet 
+              die Planung der Unternehmung.
+            </p>
+          </div>
+          <div id="planung">
+            <h3>Planung</h3>
+            <p>
+              Hier kann man sich zwischen Spazieren gehen, gemeinsam Essen, 
+              Quatschen, Kochen und gemeinsam etwas Spielen entscheiden. 
+              So haben beide Parteien sich für eine grobe richtung der 
+              Aktivität entschieden. Die Auswahl wird durch das drehen 
+              am Rad an der Disk ausgewählt und durch das drücken des 
+              Buttons in der Mitte bestätigt. Die Unternehmung kann nun 
+              in 15, 30 oder 45 Minuten stattfinden. Da die Uhrzeit am 
+              häufigsten zu Uneinigkeit führt, nehmen wir diese durch die 
+              Reduktion der Möglichkeiten. In 15 Minuten ist außerdem viel 
+              nahbarer, als um 13:14. Die Abwicklung soll schnell und einfach 
+              von der Hand gehen und Auseinandersetzungen vermeiden.
+            </p>
+          </div>
+        </div>
+      </div>
+     
+    </section>
+
+    <section id="interaction">
+      <h1>Co-nnecte Kollegen</h1>
+      <div class="models">
+        <div class="model uno">
+          <model-viewer src="assets/3d/finals/demonstration_noCorona_connect.glb" camera-controls ar-modes="webxr scene-viewer quick-look" environment-image="neutral" auto-rotate camera-controls  exposure="0.22" shadow-intensity="8.8" shadow-softness="0.07" auto-rotate>
+          </model-viewer><h4>erreichbar</h4> 
+          </div>
+        <div class="model dos">
+          <model-viewer src="assets/3d/demonstration_noCorona.glb" camera-controls ar-modes="webxr scene-viewer quick-look" environment-image="neutral" auto-rotate camera-controls  exposure="0.22" shadow-intensity="8.8" shadow-softness="0.07" auto-rotate>
+          </model-viewer><h4>Flow</h4>
+          </div>
+        <div class="model tres">
+          <model-viewer src="assets/3d/finals/demonstration_noCorona_anfrage.glb" camera-controls ar-modes="webxr scene-viewer quick-look" environment-image="neutral" auto-rotate camera-controls  exposure="0.22" shadow-intensity="8.8" shadow-softness="0.07" auto-rotate>
+          </model-viewer><h4>Kontaktanfrage</h4>
+          </div>
+        <div class="model quadro">
+          <model-viewer src="assets/3d/finals/demonstration_noCorona_pause.glb" camera-controls ar-modes="webxr scene-viewer quick-look" environment-image="neutral" auto-rotate camera-controls  exposure="0.25" shadow-intensity="8.8" shadow-softness="0.07" auto-rotate>
+          </model-viewer> <h4>Pause</h4>
+          </div>
+        </div>
+        <div class="clickdummy starting_state">
+          <img class="start" src="assets/Animations/KontaktAufbau1_modus.png">
+          <img class="scene1 hidden abso" src="assets/Animations/KontaktAufbau2_modus.png">
+          <img class="scene2 hidden abso" src="assets/Animations/KontaktAufbau3_modus.png">
+          <img class="scene3 hidden abso" src="assets/Animations/KontaktAufbau5_modus.png">
+          <img class="scene4 hidden abso" src="assets/Animations/KontaktAufbau7_modus.png">
+          <div class="states">
+            <div class="state1">
+              <div class="content">
+                <h3>Kontaktanfrage</h3>
+                <p>Paul möchte mit dir in die Pause, geh ran!</p>
+              </div>
+              <div class="antworten">
+              </div>
+            </div>
+          </div>
+          
+
+<div class="absoControl" id="container">
+  <div class="controller" id="draggable">
+    <img draggable="false" class="bg" src="assets/Animations/disk_basis.svg">
+    <img class="scroll" id="rotate" src="assets/Animations/disk_scroll.svg">
+    <img draggable="false" class="light" src="assets/Animations/disk_light.svg">
+    <img draggable="false" class="light blur" src="assets/Animations/disk_light.svg">
+    <img class="clickMe"  id="drag" src="assets/Animations/disk_button.svg">
+  </div>
+</div> 
+        </div>
+        
+    </section>
+
+    <section id="fazit">
+      <div class="option1">
+        <h1>Chancen</h1>
+        <p>
+          <br>
+          Co-nnect bietet die Möglichkeit, die Lieblings Kollegen aus 
+          dem Büro ins Homeoffice mitzunehmen. Dennoch ist die Produktgestaltung 
+          sehr Minimalistisch und Abstrakt. Dies kann unnahbar und kompliziert 
+          Wirken. Wenn das Projekt Fortgesetzt wird, sollte sich hier neu 
+          orientiert werden um die Nahbarkeit zwischen Kollegen zu gewährleisten. 
+          Eine Möglichkeit wäre hier die Disks so klein zu bekommen und an 
+          Gegenstände zu befestigen, die man Emotional mit dem Kollegen 
+          verbinden kann. Außerdem könnte hier eine Face-to-Face Unterhaltung 
+          förderlicher sein, in Form von Projektion aus der Disk heraus oder 
+          ähnlichem. 
+<br><br>
+          Wir würden unser Medium Homeoffice Arbeitenden die entweder in einem 
+          anderen Land tätig sind oder aus anderen Gründen nicht mehr in Büro 
+          kommen können / wollen Empfehlen. Wir sehen großes Potential darin 
+          Arbeitskollegen die sich im echten Leben nicht treffen zu können 
+          zu Co-nnecten. 
+        </p>
+      </div>
+      <div class="option3">
+        <h1>Einsicht</h1>
+        <p>
+          <br>
+          Mit teamfunk haben wir eine starke Konkurrenz die uns eines voraus hat. 
+          Nahbarkeit und den schnellen direkten Zugang zu Kollegen im Homeoffice. 
+          Trotz Datenschutz bedenken, sehen wir in dem System einen deutlichen 
+          Vorteil bei den Themen Zugänglichkeit und Nahbarkeit unter Kollegen. 
+          Wir sehen unser Projekt als mögliche Erweiterung, dessen. Mit dem Fokus 
+          auf Pausen und die Chance den Kollegen auch in die Pause mitzunehmen.  
+          <br><br>
+          <a target="_blank" href="https://vimeo.com/9560497">Quelle</a>
+        </p>
+      </div>
+    </section>
+
+    <footer class="bg-img">
+      <ul>
+        <li><a target="_blank" href="https://imd.mediencampus.h-da.de/">We love IMD</a></li>
+      </ul>
+    </footer>
+  </body>
+  
+<script defer src="js/main.js"></script>
+<script>
+  $(function() {
+    $.scrollify({
+      section : ".scrolify",
+    });
+  });
+</script>
+</html>
