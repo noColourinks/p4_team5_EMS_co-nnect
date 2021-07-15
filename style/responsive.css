@@ -1,0 +1,67 @@
+@media only screen and (max-width:900px) {
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    section#trailer {
+        height: 70vh;
+    }
+
+    .member {
+        position: relative;
+        width: calc(150% / 4);
+        cursor: pointer;
+        margin-bottom: 60px;
+    }
+
+    .members {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        padding-bottom: 250px;
+        flex-wrap: wrap;
+    }
+
+  .member:nth-child(1):hover img,
+    .member:nth-child(2):hover img {
+        top: -80%;
+        left: 5%;
+    }
+
+    .erkl {
+        height: 50%;
+    }
+
+    .col {
+        column-count: 1;
+    }
+
+    #loesung .content {
+        padding: 40px;
+        flex-direction: column;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    #loesung {
+        margin-bottom: 65vw;
+    }
+
+    #loesung .content > div {
+        position: relative;
+    }
+
+    .content #loesu,
+    .content #kontaktaufb,
+    .content #planung {
+        width: 100%;
+        left: 0;
+        top: 0;
+    } 
+
+    .problemBüro .erkl p,
+    .problemHomeoffice .erkl p {
+        opacity: 0;
+    }
+}
