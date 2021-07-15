@@ -1,22 +1,31 @@
 $(document).ready(() => {
 
-//https://codepen.io/hienlm/pen/BaojoBj
-  $('a').on('click', (event) => {
-    if (event.currentTarget.hash !== '') {
+  $('.basis .disk').on('click', (event) => {
+    console.log('click');
 
-      event.preventDefault();
-      const { hash } = event.currentTarget;
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top,
-      }, 100, () => {
+    $('section#experten').removeClass();
+    $('.expert.content').animate({display:'none'}, 'fast');
+    $('.disk').removeClass('active').animate({top:'0px'}, 'fast');
+    $(event.currentTarget).addClass('active').animate({top:'-130px'}, 'fast');
 
-        window.location.hash = hash;
-      });
-    }
+   let idName = $(event.currentTarget).attr('id');
+
+    console.log(idName+"Content");
+    $('section#experten').addClass(idName);
+    $(idName+"Content").animate({display:'flex'});
+
+    let curHeight = $(idName+"Content").parent().height();
+    $(idName+"Content").parent().css('height', 'auto');
+    var autoHeight = $(idName+"Content").parent().height();
+    $(idName+"Content").height(curHeight).parent().animate({height: autoHeight}, 1000);
   });
 
 
-//https://codepen.io/hienlm/pen/BaojoBj
+  $('#problem .button').on('click', (event) => {
+    console.log('bruh');
+    $('#problem').addClass('animationStart');
+    $('.button.state_1').remove();
+});
 
 // HOLY INTERACTION HELL!!!!!!
 
